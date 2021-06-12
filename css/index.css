@@ -99,7 +99,7 @@ hr {
 
 }
 
-@media (max-width: 1081px) {
+@media (max-width: 800px) {
 	.prime_content {
 		padding: 16em 2em;
 		width: 100%;
@@ -108,14 +108,18 @@ hr {
 		display: block;
 	}
 	.tabs_item {
-		padding-right: 1em;
+		padding-right: 2em;
+		pa
 	}
 	.tabs_item + .tabs_item {
 		margin: 0;
-		border: 2px solid red;
 	}
 
 	.tab_group {
-		display: block;
+	}
+
+	.nav_primary{
+		align-self: center;
+
 	}
 }
