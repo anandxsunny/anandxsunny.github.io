@@ -101,14 +101,21 @@ hr {
 
 @media (max-width: 1081px) {
 	.prime_content {
-		padding: 6em 2em;
+		padding: 16em 2em;
+		width: 100%;
 	}
 	.tabs {
 		display: block;
-		
+	}
+	.tabs_item {
+		padding-right: 1em;
 	}
 	.tabs_item + .tabs_item {
 		margin: 0;
 		border: 2px solid red;
+	}
+
+	.tab_group {
+		display: block;
 	}
 }
