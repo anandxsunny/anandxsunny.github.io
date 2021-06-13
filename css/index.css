@@ -103,13 +103,19 @@ hr {
 	display: none;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 600px) {
 	.prime_content {
 		padding: 14em 2em;
+	}
+	.prime_content h1 {
 		width: 100%;
+	}
+	.tabs {
+		min-width: 100%;
 	}
 	.tabs_item {
 		border-bottom: solid 1px var(--primary_color);
+		justify-content: center;
 	}
 
 	.tabs_item:hover {
@@ -120,7 +126,11 @@ hr {
 		font-size: 1.3em;
 	}
 
-	.nav_primary{
+	.tab_group {
+		display: block;
+	}
+
+	.nav_primary {
 		display: none;
 	}
 }
