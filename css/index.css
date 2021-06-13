@@ -22,7 +22,7 @@ hr {
 .container-fluid {
 	padding: 1.5em 2em 6em 2em;
 	max-width: 1200px;
-	min-width: 550px;
+	min-width: 500px;
 }
 
 .main {
@@ -60,7 +60,7 @@ hr {
 .tabs_item {
 	color: white;
 	align-self: flex-end;
-  font-size: 1.1em;
+  	font-size: 1.1em;
 }
 
 .tabs_item + .tabs_item {
@@ -99,27 +99,27 @@ hr {
 
 }
 
+.button_icon {
+	display: none;
+}
 @media (max-width: 800px) {
 	.prime_content {
-		padding: 16em 2em;
+		padding: 14em 2em;
 		width: 100%;
 	}
-	.tabs {
-		display: block;
-	}
 	.tabs_item {
-		padding-right: 2em;
-		pa
-	}
-	.tabs_item + .tabs_item {
-		margin: 0;
+		border-bottom: solid 1px var(--primary_color);
 	}
 
-	.tab_group {
+	.tabs_item:hover {
+		border-bottom: solid 1px white;
+	}
+	
+	.tabs_item + .tabs_item {
+		font-size: 1.3em;
 	}
 
 	.nav_primary{
-		align-self: center;
-
+		display: none;
 	}
 }
