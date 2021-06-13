@@ -102,6 +102,7 @@ hr {
 .button_icon {
 	display: none;
 }
+
 @media (max-width: 800px) {
 	.prime_content {
 		padding: 14em 2em;
@@ -114,7 +115,7 @@ hr {
 	.tabs_item:hover {
 		border-bottom: solid 1px white;
 	}
-	
+
 	.tabs_item + .tabs_item {
 		font-size: 1.3em;
 	}
