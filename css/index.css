@@ -103,7 +103,7 @@ hr {
 	display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
 	.prime_content {
 		padding: 14em 2em;
 		width: 100%;
