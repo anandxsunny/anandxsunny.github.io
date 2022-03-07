@@ -1,0 +1,159 @@
+:root{
+	--primary_color: #682AE9;
+}
+
+body {
+	 background: black;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+html{
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+
+hr {
+	color: var(--primary_color);
+}
+
+.main {
+	padding-top: 8.5em;
+}
+
+.container-fluid {
+	padding: 1.5em 2em 6em 2em;
+	max-width: 1200px;
+}
+
+.nav_bg {
+	background: linear-gradient(to top, transparent 0%, #000000cc 25%, black 75%, black 100%);
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+.tab_group{
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+}
+
+.tabs_name {
+	color: #682AE9;
+	font-size: 1.8em;
+}
+
+.tabs {
+	list-style: none;
+	display: flex;
+	padding-left: 0;
+}
+
+.tabs_item {
+	color: white;
+	align-self: flex-end;
+  	font-size: 1.1em;
+}
+
+.tabs_item + .tabs_item {
+	margin-left: 1em;
+}
+
+.tabs_item:hover, tabs_item:active, a:hover, a:active {
+	color: #682AE9;
+}
+
+.nav_secondary {
+	align-self: center;
+}
+	
+.prime_content {
+	color: lightgrey;
+	padding: 15em 5em;
+}
+
+.prime_content h1 {
+	color: white;
+	font-size: 4.5em;
+}
+
+.prime_content h5 {
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.prime_content_text {
+	color: var(--primary_color);
+
+}
+
+.prime_content_text a:hover {
+	color: white;
+}
+
+.icon + .icon {
+	margin-left: 1.5em;
+}
+.icon + h5 {
+	margin-left: 0.2em;
+}
+.button {
+	border-radius: 3rem;
+	padding: 0.3rem 0.7rem;
+	align-items: center;
+	background: var(--primary_color);
+	margin-left: 0.7em;
+	color: #a0a2a3;
+}
+
+.button:hover {
+	background: grey;
+}
+
+.center {
+	align-items: center;
+}
+
+.roboto_font {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+}
+
+.about-grid ul {
+    display: grid;
+    grid-template: 1fr/repeat(3,1fr);
+    grid-gap: 2rem;
+    grid-row-gap: 1rem;
+    padding: 0;
+}
+
+.about-grid li {
+    list-style: none;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.5em;
+    color: grey;
+    list-style: none;
+    word-break: break-word;
+}
+
+.about-grid h2 {
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.about-grid b {
+	color: var(--primary_color);
+	font-size: 1.3em;
+}
+
+.about-grid b1 {
+	color: #555555;
+}

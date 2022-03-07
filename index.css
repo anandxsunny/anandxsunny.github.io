@@ -1,0 +1,101 @@
+:root{
+	--primary_color: #682AE9;
+}
+
+body {
+	background: black;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+hr {
+	color: var(--primary_color);
+}
+
+.container-fluid {
+	padding: 1.5em 2em 6em 2em;
+	max-width: 1200px;
+	min-width: 550px;
+}
+
+.main {
+	padding-top: 8.5em;
+}
+.nav_bg {
+	background: linear-gradient(to top, transparent 0%, #000000cc 25%, black 75%, black 100%);
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+.tab_group {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+}
+
+.tabs_item.a {
+	color: white;
+} 
+
+.tabs_name {
+	color: #682AE9;
+	font-size: 1.8em;
+}
+
+.tabs {
+	list-style: none;
+	display: flex;
+	padding-left: 0;
+}
+
+.tabs_item {
+	color: white;
+	align-self: flex-end;
+  font-size: 1.1em;
+}
+
+.tabs_item + .tabs_item {
+	margin-left: 1em;
+}
+
+.tabs_item:hover, tabs_item:active, a:hover, a:active {
+	color: #682AE9;
+}
+
+.nav_secondary {
+	align-self: center;
+}
+	
+.prime_content {
+	color: lightgrey;
+	margin: 0 auto;
+	align-items: center;
+	padding: 15em 5em;
+}
+
+.prime_content h1 {
+	color: white;
+	font-size: 4.5em;
+}
+
+.prime_content h5 {
+	color: #A0A2A3;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.prime_content_text {
+	color: var(--primary_color);
+
+}
+
